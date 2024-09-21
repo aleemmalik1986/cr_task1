@@ -22,10 +22,10 @@ Shop-A is selling all of it's inventory and Shop-B is buying all inventory from 
 
 ### How to Run
 Clone the repo and navigate to workspace where main.go is present and run
-'''
+```
 go get -u gorm.io/gorm
 go run main.go
-'''
+```
 
 ### How to Test
     1) Open browser
