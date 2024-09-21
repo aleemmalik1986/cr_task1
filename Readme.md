@@ -20,6 +20,27 @@ Shop-A is selling all of it's inventory and Shop-B is buying all inventory from 
     * Product_quantity
     * Product_price
 
+### Code Directory Tree
+* Note shop_b.db will be created when code will run
+```
+├── Readme.md
+├── api
+│   ├── shopA_api.go
+│   └── shopB_api.go
+├── data
+│   └── shop_A_inventory.json
+├── go.mod
+├── go.sum
+├── main.go
+├── models
+│   └── product.go
+├── repository
+│   ├── product_repository.go
+│   └── product_repository_test.go
+├── services
+│   └── migration_service.go
+└── shop_b.db
+```
 ### How to Run
 Clone the repo and navigate to workspace where main.go is present and run
 ```
