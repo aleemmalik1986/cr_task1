@@ -24,6 +24,7 @@ Shop-A is selling all of it's inventory and Shop-B is buying all inventory from 
 Clone the repo and navigate to workspace where main.go is present and run
 ```
 go get -u gorm.io/gorm
+go get -u gorm.io/driver/sqlite
 go run main.go
 ```
 
