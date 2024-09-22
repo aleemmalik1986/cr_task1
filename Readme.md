@@ -9,10 +9,11 @@ Shop-A is selling all of it's inventory and Shop-B is buying all inventory from 
     4. Shop-B should migrate Shop-A inventory
 
 ### APIs
-    * Shop-A: Create a mock API that reads Shop-A inventory from JSON file.
+    * Shop-A: Create a mock API that reads Shop-A inventory from JSON file. 
+                1) Get ShopA inventory (ShopAInventoryHandler)
     * Shop-B: Create following APIs for shop be that do CRUD Opentions in SQLite
-                1) Product Create
-                2) Product ListView
+                1) Product Create and migrate (MigrateInventory)
+                2) Product ListView  (ListProducts)
 
 ### Database Schema
     * Product_id
